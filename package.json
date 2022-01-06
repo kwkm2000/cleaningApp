@@ -1,0 +1,55 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "react-devtools": "react-devtools",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.7",
+    "dayjs": "^1.10.7",
+    "expo": "^44.0.0",
+    "expo-image-manipulator": "~10.2.0",
+    "expo-image-picker": "~12.0.1",
+    "expo-linking": "~3.0.0",
+    "expo-permissions": "~13.1.0",
+    "expo-status-bar": "~1.2.0",
+    "firebase": "^9.4.1",
+    "firebase-admin": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-dropdown-picker": "^5.3.0",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-paper": "^4.11.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-svg": "12.1.1",
+    "react-native-swiper": "^1.6.0",
+    "react-redux": "^7.2.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/jest": "^27.0.3",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "babel-jest": "25.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "jest": "^26.6.3",
+    "jest-expo": "^44.0.0",
+    "react-devtools": "^4.19.0",
+    "typescript": "~4.3.5"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "private": true
+}
