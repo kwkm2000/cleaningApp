@@ -13,6 +13,7 @@ export { default as RadioButton } from "./RadioButton";
 export { default as Box } from "./Box";
 export { default as Button } from "./Button";
 export { default as Dropdown } from "./Dropdown";
+export { default as Chip } from "./Chip";
 export {
   Body1,
   Body2,

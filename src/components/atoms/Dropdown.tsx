@@ -2,16 +2,16 @@ import React from "react";
 import { StyleSheet, View, ViewStyle } from "react-native";
 import DropDownPicker, { ValueType } from "react-native-dropdown-picker";
 
-interface Item {
+export interface Item {
   label: string;
   value: string;
 }
 
-interface Props {
+export interface Props {
   open?: boolean;
   value: ValueType | null;
   items: Item[];
-  onChangeValue?: () => void;
+  onChangeValue?: (value: ValueType) => void;
 }
 
 export default function Dropdown(props: Props) {
